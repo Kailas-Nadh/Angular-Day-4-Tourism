@@ -1,0 +1,9 @@
+<div class="overview-container">
+    <div class="row">
+        @for (dist of districts; track dist.id) {
+        <div class="col d-flex flex-row">
+            <app-card [district]="dist" (click)="onCardClick(dist)" routerLink="/district-detailed"></app-card>
+        </div>
+        }
+    </div>
+</div>

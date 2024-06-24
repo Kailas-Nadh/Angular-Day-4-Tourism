@@ -1,0 +1,20 @@
+.card{
+    height: 200px;
+    width:300px;
+    margin:32px 8px 8px 8px;
+    // padding: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0 2px 19px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease;}
+
+.card:hover{
+    transform: scale(1.12);}
+
+.card-title{
+    font-size: 24px;
+    margin-top: 80px;
+    margin-left: -8px;
+    z-index: 23;
+    background-color: rgb(0,0,0,0.3);
+}

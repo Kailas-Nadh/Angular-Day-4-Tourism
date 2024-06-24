@@ -1,0 +1,10 @@
+<!-- <app-signup *ngIf="signup"></app-signup>
+<app-login *ngIf="!signup"></app-login> -->
+@if(signup){
+    <app-signup (changePage)="togglePage()"></app-signup>
+}
+@else {
+    <app-login (changePage)="togglePage()"></app-login>
+}
+
+  

@@ -1,0 +1,12 @@
+.overview-container{
+background-image: url("https://i.pinimg.com/736x/d3/7b/2e/d37b2e5fe1ed85f13795f746bedb4282.jpg");
+background-size: cover;
+overflow: hidden;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 64px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
